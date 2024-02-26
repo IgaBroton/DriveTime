@@ -1,0 +1,22 @@
+POST http://localhost:3001/api/cars
+Content-Type: application/json
+
+{
+  "brand":"Skoda",
+  "model":"Fabia",
+  "year": 2005,
+  "number_of_seats": 5,
+  "number_of_doors": 5,
+  "daily_price": 250,
+  "fuel": "65dccda4c77422b63493952d",
+  "mileage": 255754,
+  "description": "jakis opis",
+  "air_conditioning": true,
+  "gearbox": "65dcd0462bab13d071a0e15c",
+  "location":"65dcd27fd6695a8549b21a97",
+  "rented":false
+}
+
+###
+
+GET http://localhost:3001/api/cars
