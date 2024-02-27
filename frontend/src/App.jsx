@@ -14,8 +14,8 @@ const App = () => {
   return (
     <>
       <div>
-        <ul>
-          {cars.map(car => <li key={car.id}> {car.brand} {car.model} </li>)}
+        <ul className='list-group'>
+          {cars.map(car => <li key={car.id} className='list-group-item'> {car.brand} {car.model} </li>)}
         </ul>
       </div>
     </>
